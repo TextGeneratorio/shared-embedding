@@ -1,0 +1,8 @@
+pandas
+plotly
+loguru
+requests
+numpy
+sklearn
+
+
