@@ -23,3 +23,16 @@ Checkout [embed_example.py](embed_example.py) for how it works.
 
 Embedding size can be specified in the API with num_features
 
+### 2d plot
+Some data is preserved in the 2d embedding, it obscures that the images and their descriptions where successfully embedded close to one another (if you look at distance in the embedding space)
+![img_3.png](img_3.png)
+### 3d plot
+everything is seperated further in 3d due to more dimensions
+
+![img_1.png](img_1.png)
+
+### Embedding distances Heatmap
+This shows how close text is embedded to one another, the prompts and images are embedded close to one another (purple) space.
+
+The descriptions of the images and the images themselves are close together!
+![img_2.png](img_2.png)

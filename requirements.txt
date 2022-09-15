@@ -4,5 +4,5 @@ loguru
 requests
 numpy
 sklearn
-
+scipy
 
